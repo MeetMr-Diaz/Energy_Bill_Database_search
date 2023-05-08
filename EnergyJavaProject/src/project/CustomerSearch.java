@@ -16,7 +16,7 @@ public class CustomerSearch extends JFrame {
     private JButton searchBtn, calculateBtn,invoiceBtn,upDateBtn,deleteBtn;
     static final String dbUrl = "jdbc:mysql://localhost:3306/projectenergy";
     static final String USERNAME = "root";
-    static final String PASSWORD = "Password123";
+    static final String PASSWORD = "passwordHere";
     static JComboBox billStatusComboBox, energyPlanComboBox;
 
     public CustomerSearch(Object source){
